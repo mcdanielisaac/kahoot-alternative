@@ -68,7 +68,7 @@ export default function Lobby({
             <h1 className="text-xl pb-4">Welcome {participant.nickname}！</h1>
             <p>
               You have been registered and your nickname should show up on the
-              admin screen. Please sit back and wait until the game master
+              admin screen. Please sit back and wait until the game admin
               starts the game.
             </p>
           </div>
