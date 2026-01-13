@@ -128,7 +128,7 @@ function Results({ participant }: { participant: Participant }) {
     <div className="flex justify-center items-center min-h-screen text-center">
       <div className="p-8 bg-black text-white rounded-lg">
         <h2 className="text-2xl pb-4">Hey {participant.nickname}！</h2>
-        <p>Thanks for playing ⭐️</p>
+        <p className="mb-8">Thanks for playing ⭐️</p>
         <a
           href="https://oa-g2.org/register"
           className="rounded-md
