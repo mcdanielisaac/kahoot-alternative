@@ -129,7 +129,17 @@ function Results({ participant }: { participant: Participant }) {
       <div className="p-8 bg-black text-white rounded-lg">
         <h2 className="text-2xl pb-4">Hey {participant.nickname}！</h2>
         <p>Thanks for playing ⭐️</p>
-        <p><a href="https://oa-g2.org/register/">Register</a> for the 2026 LSF today!</p>
+        <a href="https://oa-g2.org/register" style="
+          padding: .5rem;
+          border: 1px outset buttonborder;
+          border-radius: 3px;
+          color: #12173c;
+          background-color: #40bebb;
+          text-decoration: none;
+          display: block;
+          width: 100%;
+          margin-top: 1rem;
+          ">Register for the Lone Star Fellowship</a>
       </div>
     </div>
   )
